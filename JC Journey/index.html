@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style>
+        .navbar-brand{
+          font-weight: bold;
+        }
+        .feature-icon {
+        width: 4rem;
+        height: 4rem;
+        border-radius: .75rem;
+        }
+        .bg-body-tertiary {
+        --bs-bg-opacity: 1;
+        }
+      </style>
+    <title>Document</title>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./Index.html"><img src = "./JCJourney.jpg" alt = "Logo" height="60"> JC Journey</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./Index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./price.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class ="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./IMG/BenzFull.jpg" class="d-block w-100" alt="..." >
+            </div>
+            <div class="carousel-item">
+              <img src="./IMG/BenzInfotainment.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./IMG/BenzSeatFull.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./IMG/BenzSeatRecline2.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">Welcome!</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">JC Journey specializes in airport transfers, offering a comfortable, reliable, and punctual travel experience. 
+            Our well-maintained fleet and professional drivers ensure safety and customer satisfaction. 
+            Whether for business or vacation, JC Journey provides efficient transportation solutions, prioritizing excellence and attention to detail, 
+            so you can focus on your plans while we handle the ride.</p>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+            <img src="./JCJourney.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="logo" width="300" height="200" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <div class = "container">
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img src="./SVG/award.svg" alt="award" height="35" >
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Professional</h3>
+          <p>At JC Journey, professionalism is our hallmark. Our experienced drivers are courteous, punctual, and dedicated to providing exceptional service. With a focus on safety, comfort, and customer satisfaction, we ensure a smooth and enjoyable travel experience. Trust JC Journey for a reliable and professional 
+            airport transportation service every time.</p>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img src="./SVG/bus-front.svg" alt="Bus" height="35">
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Avalabillity</h3>
+          <p>
+            JC Journey proudly serves the entire East Coast of the United States, offering 24/7 availability to meet your transportation needs. From major cities to smaller towns, our reliable service ensures timely airport transfers and convenient travel options, providing a seamless and stress-free 
+            experience for all our valued customers.</p>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+           <img src="./SVG/duffle.svg" alt ="Bag" height="35">
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Reliability</h3>
+          <p>JC Journey is reliable due to its punctuality, professional drivers, and well-maintained vehicles. Our commitment to customer satisfaction and safety ensures a seamless and stress-free travel experience. Trust us to provide dependable airport transfers, 
+            allowing you to focus on your journey while we handle the ride.</p>
+        </div>
+      </div>
+      
+      </div>
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 JC Journey, Inc</p>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    <script src="./Index.js" charset="UTF-8"></script>
+</body>
+
+</html>
